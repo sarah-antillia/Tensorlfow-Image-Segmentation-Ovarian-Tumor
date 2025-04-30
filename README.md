@@ -1,4 +1,7 @@
-<h2>Tensorflow-Image-Segmentation-Ovarian-Tumor (2024/11/08)</h2>
+<h2>Tensorflow-Image-Segmentation-Ovarian-Tumor (Updated:2025/04/30)</h2>
+Sarah T. Arai<br>
+Software Laboratory antillia.com<br>
+<br>
 
 This is the second experiment of Image Segmentation for Ovarian-Tumor
  based on 
@@ -202,8 +205,8 @@ By using this callback, on every epoch_change, the inference procedure can be ca
 <img src="./projects/TensorflowSlightlyFlexibleUNet/Ovarian-Tumor/asset/epoch_change_infer.png" width="1024" height="auto"><br>
 <br>
 
-In this experiment, the training process was stopped at epoch 29  by EarlyStopping Callback.<br><br>
-<img src="./projects/TensorflowSlightlyFlexibleUNet/Ovarian-Tumor/asset/train_console_output_at_epoch_29.png" width="720" height="auto"><br>
+In this experiment, the training process was stopped at epoch 42  by EarlyStopping Callback.<br><br>
+<img src="./projects/TensorflowSlightlyFlexibleUNet/Ovarian-Tumor/asset/train_console_output_at_epoch_42.png" width="720" height="auto"><br>
 <br>
 
 <a href="./projects/TensorflowSlightlyFlexibleUNet/Ovarian-Tumor/eval/train_metrics.csv">train_metrics.csv</a><br>
@@ -229,7 +232,7 @@ python ../../../src/TensorflowUNetEvaluator.py ./train_eval_infer_aug.config
 </pre>
 
 Evaluation console output:<br>
-<img src="./projects/TensorflowSlightlyFlexibleUNet/Ovarian-Tumor/asset/evaluate_console_output_at_epoch_29.png" width="720" height="auto">
+<img src="./projects/TensorflowSlightlyFlexibleUNet/Ovarian-Tumor/asset/evaluate_console_output_at_epoch_42.png" width="720" height="auto">
 <br><br>Image-Segmentation-Ovarian-Tumor
 
 <a href="./projects/TensorflowSlightlyFlexibleUNet/Ovarian-Tumor/evaluation.csv">evaluation.csv</a><br>
@@ -237,8 +240,8 @@ Evaluation console output:<br>
 The loss (bce_dice_loss) to this Ovarian-Tumor/test was not low, and dice_coef not high as shown below.
 <br>
 <pre>
-loss,0.2602
-dice_coef,0.8047
+loss,0.1544
+dice_coef,0.8351
 </pre>
 <br>
 
